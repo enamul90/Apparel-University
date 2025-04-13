@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+    --blue-dark: #15588D;      /* Deep Blue / Navy Blue */
+    --orange-bright: #F7941D;  /* Bright Orange / Vibrant Orange */
+    --gray-light: #F3F7F9;     /* Light Gray / Soft Gray */
+    --cream-white: #FFF9F2;    /* Cream White / Off White */
+}
+
+.swiper-pagination{
+    margin-bottom: 20px !important;
+}
+.swiper-pagination-bullet {
+    width: 40px !important;
+    height: 2px !important;
+    background-color: var(--orange-bright) !important;
+    border-radius: 4px !important;
+}
+

@@ -11,6 +11,7 @@ import GalleryPage from "./page/Gallery-Page.jsx";
 import PackagesPage from "./page/Packages-Page.jsx";
 import AboutPage from "./page/About-Page.jsx";
 import ContactPage from "./page/Contact-Page.jsx";
+import BlogDetailsPage from "./page/BlogDetails-Page.jsx";
 
 const App = () => {
     return (
@@ -20,6 +21,7 @@ const App = () => {
                     <Route path={"/"} element={<HomePage />}/>
                     <Route path={"/course"} element={<CoursePage />}/>
                     <Route path={"/blog"} element={<BlogPage />}/>
+                    <Route path={"/blog-details"} element={<BlogDetailsPage />}/>
                     <Route path={"/overview"} element={<OverviewPage />}/>
                     <Route path={"/officers"} element={<OfficersPage />}/>
                     <Route path={"/gallery"} element={<GalleryPage />}/>

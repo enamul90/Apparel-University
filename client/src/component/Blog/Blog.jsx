@@ -1,9 +1,10 @@
 import React from 'react';
+import AllBlogPosts from "../home/AllBlogPosts.jsx";
 
 const Blog = () => {
     return (
         <div>
-            This is the blog page.
+            <AllBlogPosts />
         </div>
     );
 };

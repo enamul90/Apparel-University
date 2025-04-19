@@ -1,10 +1,10 @@
 import React from 'react';
-import AllBlogPosts from "../home/AllBlogPosts.jsx";
+import AllBlog from "./all-blog.jsx";
 
 const Blog = () => {
     return (
         <div>
-            <AllBlogPosts />
+            <AllBlog />
         </div>
     );
 };

@@ -37,7 +37,7 @@ const StatsSection = () => {
     return (
         <Box
             sx={{
-                py: 4,
+                py: 10,
                 px: { xs: 2, sm: 4 },
                 bgcolor: 'white',
             }}

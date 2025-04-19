@@ -6,7 +6,7 @@ import Image3 from '../../../public/images/course3.png';
 
 const CourseList = () => {
     return (
-        <Box sx={{ backgroundColor: '#f5f7fa', py: 8 }}>
+        <Box sx={{ backgroundColor: '#f5f7fa', py: 10 }}>
             <Box className="container mx-auto px-5 lg:px-0">
 
                 <Box sx={{ display: 'flex', flexDirection: { xs: 'column', lg: 'row' }, gap: 4 }}>

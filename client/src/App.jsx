@@ -13,6 +13,7 @@ import ContactPage from "./page/Contact-Page.jsx";
 import ProfilePage from './page/ProfilePage.jsx';
 
 import BlogDetailsPage from "./page/BlogDetails-Page.jsx";
+import LoginPage from "./page/Login-Page.jsx";
 
 
 const App = () => {
@@ -20,6 +21,10 @@ const App = () => {
         <div>
             <BrowserRouter>
                 <Routes>
+                    <Route path={"/login"} element={<LoginPage />}/>
+
+
+
                     <Route path={"/"} element={<HomePage />}/>
                     <Route path={"/course"} element={<CoursePage />}/>
                     <Route path={"/blog"} element={<BlogPage />}/>
